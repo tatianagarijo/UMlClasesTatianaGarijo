@@ -13,4 +13,17 @@
     Event <|-- BoardMeeting
     Event <|-- Conference
 
+    class Person{
+    }
+
+    class Member{
+    }
+
+    class BoardMember{
+    }
+
+    Member <|-- BoardMember
+    Person <|-- Member
+
+
 @enduml
