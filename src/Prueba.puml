@@ -1,3 +1,16 @@
 @startuml
+    class Event{
+    }
+
+    class Conference{
+    }
+
+    class BoardMeeting{
+    }
+
+
+    skinparam groupInheritance 2
+    Event <|-- BoardMeeting
+    Event <|-- Conference
 
 @enduml
