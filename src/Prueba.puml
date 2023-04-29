@@ -1,68 +1,53 @@
 @startuml
     class Event{
-        date : Date
-        description : String
-        assign(l : Location):void
     }
-
     class Conference{
-        max_attendees : Integer
+    }
+    class BoardMeeting{
+    }
+    class Location{
+    }
+    class AAUOC{
     }
 
+    class Event{
+    }
+    class Conference{
+    }
     class BoardMeeting{
     }
 
     class Person{
-        name : String
     }
-
     class Member{
-        e-mail: String
     }
-
     class BoardMember{
     }
 
-    class Location{
-        description : String
-        address : String
-    }
-
-    class AAUOC{
-        newLocation(l : Location):void
-        newEvent(e : Event):void
-        newPerson(p: Person): void
-        informEvent(e : Event):void
-        register(m : Member):void
-    }
-
-
-    AAUOC o-- Location
-    AAUOC o-- Event
-    AAUOC o-- Person
-
-    Location -- Event : isLocated In
-
-    Event-- Member: attendsTo
+    Member <|-- BoardMember
+    Person <|-- Member
 
     skinparam groupInheritance 2
         Event <|-- Conference
         Event <|-- BoardMeeting
 
-    Member <|-- BoardMember
-    Person <|-- Member
-    BoardMeeting -- BoardMember : attendsTo
-    Conference --Person : attendsTo
+
+    AAUOC o-- "0..*" Location
+    AAUOC o-- "0..*" Event
+    AAUOC o-- "0..*" Person
+
+    Location "1" -- "0..*" Event: isLocated In
+
+    Event "0..*" -- "0..*" Member: attendsTo
+
+
+    BoardMeeting "0..*" -- "0..*" BoardMember: attendsTo
+    Conference "0..*" -- "0..*" Person : attendsTo
+
+
+
 
 @enduml
-
-
-
-
-
-
-
-
 
 
 

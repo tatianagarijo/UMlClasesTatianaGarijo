@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28f81760-6be5-45e4-b180-fe5378fb1460" name="Changes" comment="Creación modelo datos 2.3">
+    <list default="true" id="28f81760-6be5-45e4-b180-fe5378fb1460" name="Changes" comment="Inclusión de atributos y métodos 3.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.~lock.UMLClasesTGA.odt#" beforeDir="false" afterPath="$PROJECT_DIR$/.~lock.UMLClasesTGA.odt#" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMLClasesTGA.odt" beforeDir="false" afterPath="$PROJECT_DIR$/UMLClasesTGA.odt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Prueba.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prueba.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/TATIANA/Desktop/IES SV8A/EDE/3ª EV/UD11/Entrega/PlantUML/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682745513462</updated>
       <workItem from="1682745515793" duration="1681000" />
-      <workItem from="1682747247487" duration="10699000" />
+      <workItem from="1682747247487" duration="12463000" />
     </task>
     <task id="LOCAL-00001" summary="Creación proyecto y añadir archivo memoria">
       <created>1682746266979</created>
@@ -92,7 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682758809053</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Inclusión de atributos y métodos 3">
+      <created>1682760879229</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682760879229</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Inclusión de atributos y métodos 3.1">
+      <created>1682760949967</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682760949967</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +131,8 @@
     <MESSAGE value="Creación modelo datos 2.1" />
     <MESSAGE value="Creación modelo datos 2.2" />
     <MESSAGE value="Creación modelo datos 2.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creación modelo datos 2.3" />
+    <MESSAGE value="Inclusión de atributos y métodos 3" />
+    <MESSAGE value="Inclusión de atributos y métodos 3.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inclusión de atributos y métodos 3.1" />
   </component>
 </project>
