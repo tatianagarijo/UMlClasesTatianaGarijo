@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28f81760-6be5-45e4-b180-fe5378fb1460" name="Changes" comment="Creación modelo datos 2.1">
+    <list default="true" id="28f81760-6be5-45e4-b180-fe5378fb1460" name="Changes" comment="Creación modelo datos 2.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.~lock.UMLClasesTGA.odt#" beforeDir="false" afterPath="$PROJECT_DIR$/.~lock.UMLClasesTGA.odt#" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMLClasesTGA.odt" beforeDir="false" afterPath="$PROJECT_DIR$/UMLClasesTGA.odt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Prueba.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prueba.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682745513462</updated>
       <workItem from="1682745515793" duration="1681000" />
-      <workItem from="1682747247487" duration="5600000" />
+      <workItem from="1682747247487" duration="8684000" />
     </task>
     <task id="LOCAL-00001" summary="Creación proyecto y añadir archivo memoria">
       <created>1682746266979</created>
@@ -77,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682754600128</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Creación modelo datos 2.2">
+      <created>1682755855699</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682755855699</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +107,7 @@
     <MESSAGE value="Creación proyecto y añadir archivo memoria" />
     <MESSAGE value="Instalación plugin PlanUML y creación primer PlantUML File" />
     <MESSAGE value="Creación modelo datos 2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creación modelo datos 2.1" />
+    <MESSAGE value="Creación modelo datos 2.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creación modelo datos 2.2" />
   </component>
 </project>

@@ -8,11 +8,6 @@
     class BoardMeeting{
     }
 
-
-    skinparam groupInheritance 2
-    Event <|-- BoardMeeting
-    Event <|-- Conference
-
     class Person{
     }
 
@@ -22,8 +17,36 @@
     class BoardMember{
     }
 
+    class Location{
+    }
+
+    class AAUOC{
+    }
+
+    AAUOC o-- Location
+    AAUOC o-- Event
+    AAUOC o-- Person
+    Location -- Event
+    Event-- Member
+    skinparam groupInheritance 2
+        Event <|-- Conference
+        Event <|-- BoardMeeting
+
     Member <|-- BoardMember
     Person <|-- Member
-
+    BoardMeeting -- BoardMember
+    Conference --Person
 
 @enduml
+
+
+
+
+
+
+
+
+
+
+
+
